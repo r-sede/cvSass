@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'pixel';
+	src: url('../fonts/PixelEmulator.eot');
+	src: url('../fonts/PixelEmulator.woff2') format('woff2'),
+	url('../fonts/PixelEmulator.woff') format('woff'),
+	url('../fonts/PixelEmulator.ttf') format('truetype'),
+	url('../fonts/PixelEmulator.svg#PixelEmulator') format('svg'),
+	url('../fonts/PixelEmulator.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$primary-color: #78a074;
+$secondary-color: #aabea0;
+$third-color: #80a870;
+$text-color: #333;
+$row-padding: 1em;
+$col-breakpoint: 1130px;
+
+$js-logo: '../imgs/js.png';
+$html-logo: '../imgs/html5.png';
+$css-logo: '../imgs/css3.png';
+$jquery-logo: '../imgs/jquery.png';
+$laravel-logo: '../imgs/laravel.png';
+$mysql-logo: '../imgs/mysql.jpg';
+$nodejs-logo: '../imgs/nodejs.png';
+$php-logo: '../imgs/php.png';
+$express-logo: '../imgs/expressjs.png';
+$react-logo: '../imgs/react.png';
+$socketio-logo: '../imgs/socket.io.svg';
+$wordpress-logo: '../imgs/wordpress.jpg';
+$bootstrap-logo: '../imgs/bootstrap.png';
+$sass-logo: '../imgs/sass.png';
+
+.html-logo {
+	background-image: url($html-logo);
+}
+
+.css-logo {
+	background-image: url($css-logo);
+}
+
+.js-logo {
+	background-image: url($js-logo);
+}
+
+.jquery-logo {
+	background-image: url($jquery-logo);
+}
+
+.laravel-logo {
+	background-image: url($laravel-logo);
+}
+
+.mysql-logo {
+	background-image: url($mysql-logo);
+}
+
+.nodejs-logo {
+	background-image: url($nodejs-logo);
+}
+
+.php-logo {
+	background-image: url($php-logo);
+}
+
+.express-logo {
+	background-image: url($express-logo);
+}
+
+.react-logo {
+	background-image: url($react-logo);
+}
+
+.socketio-logo {
+	background-image: url($socketio-logo);
+}
+
+.wordpress-logo {
+	background-image: url($wordpress-logo);
+}
+
+.bootstrap-logo {
+	background-image: url($bootstrap-logo);
+}
+
+.sass-logo {
+	background-image: url($sass-logo);
+}

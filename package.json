@@ -1,0 +1,33 @@
+{
+  "name": "cvRafSass",
+  "version": "1.0.0",
+  "homepage": "https://r-sede.github.io/cvSass",
+  "author": "Raphael De Sede <r-sede@orange.fr>",
+  "sasslintConfig": "C:\\Users\\rafiki\\Documents\\simplon\\sass-lint.yml",
+  "description": "mon cv developpeur web junior, formation simplon Auch 1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start https://r-sede.github.io/cvSass",
+    "dist": "sass assets\\css\\src\\style.scss assets\\css\\style.css",
+    "watch": "sass --watch assets\\css\\src:assets\\css",
+    "caddy": "caddy --conf ..\\Caddyfile",
+    "distLinux": "sass assets/css/src/style.scss assets/css/style.css",
+    "watchLinux": "sass --watch assets/css/src:assets/css",
+    "caddyLinux": "caddy --conf ../Caddyfile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r-sede/cvSass.git"
+  },
+  "keywords": [
+    "De Sede",
+    "cv",
+    "developpeur web junior",
+    "simplon"
+  ],
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

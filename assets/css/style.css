@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'pixel';
+  src: url("../fonts/PixelEmulator.eot");
+  src: url("../fonts/PixelEmulator.woff2") format("woff2"), url("../fonts/PixelEmulator.woff") format("woff"), url("../fonts/PixelEmulator.ttf") format("truetype"), url("../fonts/PixelEmulator.svg#PixelEmulator") format("svg"), url("../fonts/PixelEmulator.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+.html-logo {
+  background-image: url("../imgs/html5.png"); }
+
+.css-logo {
+  background-image: url("../imgs/css3.png"); }
+
+.js-logo {
+  background-image: url("../imgs/js.png"); }
+
+.jquery-logo {
+  background-image: url("../imgs/jquery.png"); }
+
+.laravel-logo {
+  background-image: url("../imgs/laravel.png"); }
+
+.mysql-logo {
+  background-image: url("../imgs/mysql.jpg"); }
+
+.nodejs-logo {
+  background-image: url("../imgs/nodejs.png"); }
+
+.php-logo {
+  background-image: url("../imgs/php.png"); }
+
+.express-logo {
+  background-image: url("../imgs/expressjs.png"); }
+
+.react-logo {
+  background-image: url("../imgs/react.png"); }
+
+.socketio-logo {
+  background-image: url("../imgs/socket.io.svg"); }
+
+.wordpress-logo {
+  background-image: url("../imgs/wordpress.jpg"); }
+
+.bootstrap-logo {
+  background-image: url("../imgs/bootstrap.png"); }
+
+.sass-logo {
+  background-image: url("../imgs/sass.png"); }
+
+body {
+  border-width: 0;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.date {
+  font-family: monospace; }
+
+.logoWrap {
+  width: 2em;
+  height: 2em;
+  background-size: contain; }
+
+.container {
+  margin: auto;
+  max-width: 1130px; }
+
+.row {
+  display: flex;
+  margin: 1em; }
+
+.col {
+  margin-left: 0.33333em;
+  margin-right: 0.33333em; }
+
+.portrait {
+  margin-left: 40em; }
+
+.langage {
+  margin-right: 2em; }
+
+main {
+  margin-bottom: 3em;
+  margin-top: 3em; }
+  main i {
+    margin-right: .5em; }
+
+.examples table tr :nth-child(1) {
+  margin-right: 2em; }
+
+footer .row {
+  background: #b8c8af url("../imgs/apropos_bg.png") no-repeat scroll left top;
+  background-size: 100% auto; }
+
+a {
+  color: #95b592;
+  text-decoration: none; }
+
+a:hover {
+  color: #5f865b; }
+
+.page-header h3 {
+  color: #78a074;
+  font-family: 'pixel'; }
+.page-header h4 {
+  color: #78a074;
+  font-family: 'pixel'; }
+.page-header p span, .page-header p a {
+  margin-left: 1em; }
+
+.list-inline {
+  list-style: none;
+  text-align: center;
+  width: 100%; }
+  .list-inline li {
+    display: inline;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em; }
+    .list-inline li a {
+      color: #fff; }
+
+@media screen and (max-width: 1130px) {
+  body {
+    font-size: 14px; }
+
+  .row {
+    display: block;
+    margin: 1em; }
+
+  .portrait {
+    display: none; }
+
+  .container {
+    margin: auto;
+    max-width: 512px; } }
+
+/*# sourceMappingURL=style.css.map */
