@@ -22,6 +22,7 @@ $html-logo: '../imgs/html5.png';
 $css-logo: '../imgs/css3.png';
 $jquery-logo: '../imgs/jquery.png';
 $laravel-logo: '../imgs/laravel.png';
+$symfony-logo: '../imgs/symfony.png';
 $mysql-logo: '../imgs/mysql.jpg';
 $nodejs-logo: '../imgs/nodejs.png';
 $cordova-logo: '../imgs/cordova_48.png';
@@ -53,6 +54,9 @@ $sass-logo: '../imgs/sass.png';
 	background-image: url($laravel-logo);
 }
 
+.symfony-logo {
+	background-image: url($symfony-logo);
+}
 .mysql-logo {
 	background-image: url($mysql-logo);
 }
