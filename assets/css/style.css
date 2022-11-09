@@ -4,6 +4,12 @@
   src: url("../fonts/PixelEmulator.woff2") format("woff2"), url("../fonts/PixelEmulator.woff") format("woff"), url("../fonts/PixelEmulator.ttf") format("truetype"), url("../fonts/PixelEmulator.svg#PixelEmulator") format("svg"), url("../fonts/PixelEmulator.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot");
+  src: url("../fonts/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg"), url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 .html-logo {
   background-image: url("../imgs/html5.png"); }
 
