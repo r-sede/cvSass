@@ -42,10 +42,14 @@
 
 .bootstrap-logo {
   background-image: url("../imgs/bootstrap.png"); }
-
+.tailwind-logo {
+  background-image: url("../imgs/tailwind.png"); }
 .sass-logo {
   background-image: url("../imgs/sass.png"); }
-
+.symfony-logo {
+  background-image: url("../imgs/symfony.jpg"); }
+.algolia-logo {
+  background-image: url("../imgs/algolia.png"); }
 body {
   border-width: 0;
   color: #333;
@@ -57,12 +61,19 @@ body {
   width: 100%; }
 
 .date {
-  font-family: monospace; }
-
+  font-family: monospace;
+  font-size: 12px;
+}
+.topic {
+  font-size: 16px;
+  padding-left: 10px;
+}
 .logoWrap {
   width: 2em;
   height: 2em;
-  background-size: contain; }
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 .container {
   margin: auto;
@@ -139,3 +150,11 @@ a:hover {
     max-width: 512px; } }
 
 /*# sourceMappingURL=style.css.map */
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 15px;
+}
